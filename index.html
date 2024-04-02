@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio - Siduja Perera</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/edc98893d4.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="script.js"></script>
+
+
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p> <span>
+                        <> Software Engineer <<span>>
+                    </span></p>
+                <h1>Hi, I'm <span>Siduja</span> Perera...</h1>
+                <span class="multiple-box">
+                    a <span class="multiple"></span>
+                </span>
+            </div>
+        </div>
+
+
+    </div>
+
+    <!---------------------------About Section----------------------------->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/user.png">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>I have a passion for analyzing and solving complex problems. I am committed to staying up-to-date
+                        with the latest developments in the
+                        software industry, and I am always
+                        eager to learn new skills and
+                        technologies to improve my abilities.
+                        Moreover, I am fervently seeking an
+                        environment where I can immerse
+                        myself in gaining invaluable industry
+                        experience, leveraging every
+                        opportunity to learn and grow.</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experiance')">Personal Profile</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Web Development ( HTML5, CSS3, JS )</li>
+                            <li><span>Selenium WebDriver</span><br> ( NUnit Framework )</li>
+                            <li><span>Experience in AWS services</span><br>S3, Lambda, RDS, SNS, DynamoDB, IAM,
+                                API Gateway, Cloud9.</li>
+                            <li><span>Quality Testing</span><br>Regression Testing , Exploratory Testing , Load Testing
+                                , Volume Testing</li>
+                            <li><span>Project Management</span><br>AGILE Methodology</li>
+                            <li><span>Programming</span><br>Object Oriented Programming</li>
+                            <li><span>Back-End Testing</span><br>Proficiency with Postman</li>
+                            <li><span>Designing</span><br>Proficient in Canva and Microsoft Office Suite</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experiance">
+                        <ul>
+                            <li><span>FutureSeekers.lk Web Application</span><br>University 1st Year - 2020 / 21 </li>
+                            <li><span>LookOutEye Mobile Application</span><br>University 1st Year - 2020 / 21</li>
+                            <li><span>Optimizing Software Quality</span><br>University 3rd Year - 2022 / 23</li>
+                            <li><span>Designed, Implementing a Cloud-Based Infrastructure Solution.</span><br>University
+                                3rd Year - 2022 / 23</li>
+                            <li><span>Designing and Implementing a Database Solution</span><br>University 2nd Year -
+                                2020 / 21 </li>
+                            <li><span>Final Year Project - Automated Pneumonia Detection System</span><br>University 3rd
+                                Year - 2022 / 23</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2019 - 2023</span><br>BSC ( HONS ) Software Engineering | Staffordshire University
+                            </li>
+                            <li><span>2024</span><br> Certified Quality Assurance Engineer | Udemy</li>
+                            <li><span>2018 - 2019</span><br>Diploma in IT | SFS Academy</li>
+                            <li><span>2019</span><br>Foundation Programme for Business & Computing (APIIT) </li>
+                            <li><span>2018 - 2019</span><br>Educated at S. Thomas College Mount Lavinia</li>
+                            <li><span>2009 - 2018</span><br>Educated at S. Thomas Preparatory School </li>
+                            <li><span>2007 - 2009</span><br>Educated at Sri Lankan School Muscat - Oman </li>
+                        </ul>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+        <!---------------------------Services----------------------------->
+
+        <div class="services">
+            <div class="container">
+                <h1 class="sub-title">My Services</h1>
+                <div class="services-list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Web Development</h2>
+                        <p>With expertise in front-end development, I focus on creating captivating user interfaces and
+                            seamless interactions. Let's elevate your web presence together.
+                        </p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-check"></i>
+                        <h2>Software Quality Testing</h2>
+                        <p>Specializing in software quality testing, I meticulously examine every aspect of your
+                            application to ensure it meets the highest standards. Let's build confidence in your
+                            software's performance.
+                        </p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-pen"></i>
+                        <h2>Designing</h2>
+                        <p>From concept to creation, I specialize in transforming ideas into visually stunning designs.
+                            Let's turn your vision into reality with creativity and precision.
+                        </p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!---------------------------Portfolio----------------------------->
+
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">Univeristy Projects</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/work-1.png">
+                        <div class="layer">
+                            <h3>
+                                LookOutEye</h3>
+                            <p>LookoutEye is an emergency app that enables users to contact the closest department in
+                                the event of an emergency. The app features three buttons that connect users with their
+                                nearest hospital, police station, or fire department.
+
+                                With geo-location technology, LookoutEye can easily pinpoint the user's location and
+                                connect them with the nearest emergency services. Additionally, the app includes a
+                                camera feature that enables users to communicate with a doctor at the hospital as
+                                quickly as possible.
+
+                                To create a seamless user experience, I used Figma to design the mobile application
+                                interfaces, and worked with a school friend to bring my vision to life. I used Android
+                                Studio to develop the code, and integrated Google Firebase for seamless data management.
+                            </p>
+                            <a
+                                href="https://drive.google.com/file/d/13qzMvfwpuNnza8krKiyLkA_CN2uGLxJD/view?usp=drive_link"><i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <img src="images/work-2.png">
+                        <div class="layer">
+                            <h3>A Cloud-Based Infrastructure
+                                Solution </h3>
+                            <p>Developed and Deployed a cloud-based infrastructure solutions utilizing AWS
+                                services like S3, Lambda, RDS, SNS, DynamoDB, IAM, API Gateway, and
+                                Cloud9. Through collaboration with cross-functional teams, I comprehensively
+                                understood project requirements to deliver scalable and efficient cloud
+                                solutions. My focus on thorough testing and quality assurance ensures the
+                                reliability and high performance of cloud-based applications and
+                                infrastructure.</p>
+                            <a
+                                href="https://drive.google.com/file/d/16leq9nBxx3QoaUFx7J3UuhqzI2LhZ_xm/view?usp=drive_link"><i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="work">
+                        <img src="images/work-3.png">
+                        <div class="layer">
+                            <h3>Final Year Project</h3>
+                            <p>"Automated Pneumonia Detection System" is an innovative and cutting-edge project aimed at
+                                revolutionizing the early diagnosis of pneumonia through advanced artificial
+                                intelligence / Machine Learning and image processing techniques.</p>
+                            <a
+                                href="https://drive.google.com/file/d/1Uk1tvuVecT318uix9vSSPLbLEXsp2T0L/view?usp=drive_link"><i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="https://www.linkedin.com/in/siduja-perera-534515217" class="btn"> See More</a>
+            </div>
+        </div>
+
+        <!---------------------------Contact----------------------------->
+
+
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h1 class="sub-title">Contact Me</h1>
+                        <p><i class="fa-solid fa-envelope"></i> sidujaperera22@gmail.com</p>
+                        <p><i class="fa-solid fa-phone"></i>+94 76 9138 652</p>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/siduja-perera-534515217"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/_.sidu.__/"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/profile.php?id=100008126472663&mibextid=LQQJ4d"><i
+                                    class="fa-brands fa-facebook"></i></a>
+                            <a href="https://twitter.com/SidujaP"><i class="fa-brands fa-twitter"></i></a>
+                        </div>
+                        <a href="images/Siduja Perera CV.pdf" download class="btn btn2">Download CV</a>
+                    </div>
+
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your E-mail" required>
+                            <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn3">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+
+            <!---------------------------Copyright----------------------------->
+            <div class="copyright">
+                <p>Copyright &copy; Siduja Perera | All Rights Reserved.</p>
+            </div>
+        </div>
+
+        <script>
+
+
+            // Wait for the DOM content to load before executing JavaScript
+            document.addEventListener('DOMContentLoaded', function () {
+                // Initialize Typed.js instance
+                const typed = new Typed('.multiple', {
+                    strings: ["Software Engineer.", "Quality Assurance Engineer.", " Front - End Developer", "Desinger", "Musician"],
+                    typeSpeed: 80,
+                    backSpeed: 90,
+                    loop: true
+                });
+            });
+
+
+
+
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+
+            function opentab(tabname) {
+                for (tablink of tablinks) {
+                    tablink.classList.remove("active-link");
+                }
+                for (tabcontent of tabcontents) {
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+
+        </script>
+
+        <script>
+
+            var sidemenu = document.getElementById("sidemenu");
+
+            function openmenu() {
+                sidemenu.style.right = "0";
+            }
+
+            function closemenu() {
+                sidemenu.style.right = "-200px";
+            }
+
+        </script>
+        <script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbwWqfka6shwD4KBfcY-3o4torGDYJOeUDpxdtIoG_dpRIYGrN_1BxghlG1KdNPa9dCl/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+
+
+            form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                    .then(response => {
+                        msg.innerHTML = "Message sent Succesfully"
+                        setTimeout(function () {
+                            msg.innerHTML = ""
+                        }, 5000)
+                        form.reset()
+                    })
+                    .catch(error => console.error('Error!', error.message))
+            })
+        </script>
+</body>
+
+</html>
